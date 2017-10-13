@@ -39,7 +39,7 @@ public class AppTest
 		learn ta=new learn();
 		int result =ta.multiply(1,6);
 		String result1 =ta.concate("a","b"); 
-		assertEquals("ab","results1");
+		assertEquals("ab",result1);
 		assertEquals(6,result);
          assertTrue( true );
     }
