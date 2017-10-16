@@ -38,12 +38,11 @@ public class AppTest
     {
 	
 		learn ta=new learn();
-		int result =ta.multiply(1,6);
+		
 		int result2 =ta.divide(6,2);
-		String result1 =ta.concate("a","b"); 
-		assertEquals("ab",result1);
+		
 		assertEquals(3,result2);
-		assertEquals(6,result);
+		
          assertTrue( true );
     }
 }
