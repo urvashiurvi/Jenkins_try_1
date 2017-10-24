@@ -39,9 +39,9 @@ public class AppTest
 	
 		learn ta=new learn();
 		
-		int result2 =ta.divide(6,2);
+		int result2 =ta.divide(6,3);
 		
-		assertEquals(3,result2);
+		assertEquals(2,result2);
 		
          assertTrue( true );
     }
